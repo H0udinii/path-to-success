@@ -1,0 +1,453 @@
+/*CSS BY HASAAN*/
+/*Imported Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Root Variables*/
+  :root{
+    --teal: var(#4CA7C0);
+    --purple: var(#484FB7);
+    --blue: var(#6B8FE7);
+    --gold: var(#E9BB57);
+    --red: var(#D9526F);
+    --black: var(#1E1E1E);
+    --white: var(#ffffff);
+  }
+  /* GLOBAL STYLES (mobile first/small) */
+
+    /* H1-H4 */
+    h1, h2{
+        font-family: 'Kavoon';
+        font-weight: normal;
+        color: #E9BB57;
+    }
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    h3{
+      font-family: 'Inter';
+      font-size: 1.5rem;
+      color: #E9BB57;
+    }
+    h4{
+      font-family: 'Inter';
+      font-size: 1.15rem;
+      color: #484FB7;
+    }
+    /*Nav*/
+    nav{
+      position: absolute;
+      
+
+    }
+    nav h2{
+      font-size: 1.5rem;
+    }
+    
+    /* Paragraph */
+    p{
+      font-family: 'Inter';
+    }
+    /*Header*/
+    html{
+      width: 450px;
+      margin: auto;
+      background-color: #484FB7;
+    }
+    #potential{
+      font-family: 'Inter';
+      font-style: italic;
+      background-color: #D9526F;
+      text-align: center;
+      color: #ffffff;
+      padding: 30px;
+      width: 475px;
+      scale: 100%;
+      margin-top: -25px;
+      border-radius: 0px 0px 50px 50px;
+      position: relative;
+      left: 30px;
+    }
+    #potential p{
+      position: relative;
+      top: 15px;
+    }
+    #head{
+      background-color: #6B8FE7;
+      margin: auto;
+      text-align: center;
+      color: #ffffff;
+      padding: 50px;
+      width: 510px;
+      border-radius: 0px 0px 60px 60px;
+      position: relative;
+      z-index: 1;
+    }
+    #head h1{
+      color: #ffffff;
+      position: relative;
+      top: 15px;
+      font-size: 3rem;
+    }
+    .menu h2{
+      background-color: #E9BB57;
+      border-radius: 0px 0px 20px 20px;
+      color: #1E1E1E;
+      margin: auto;
+      padding: 20px;
+      width: 100px;
+      font-family: 'Inter';
+      font-style: italic;
+      font-weight: bold;
+      position: relative;
+      top: -205px;
+      left: 310px;
+      z-index: 2;
+    }
+    /*Image Sections*/
+    .services h2{
+      color: #ffffff;
+      position: relative;
+      padding: 5px;
+      left: 80px;
+    }
+    .one-on-one h3{
+      font-weight: bolder;
+      position: relative;
+      left: 85px;
+    }
+    #personal-development{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    #career-coaching{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    #relationship-coaching{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    .supportive-community h3{
+      font-weight: bolder;
+      position: relative;
+      left: 85px;
+    }
+
+    #supportive-community{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    #focused-session{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    .workshops h3{
+      font-weight: bolder;
+      position: relative;
+      left: 85px;
+    }
+
+    #interactive-learning{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    .online-courses{
+      font-weight: bolder;
+      position: relative;
+      left: 85px;
+    }
+    #flexible-learning{
+      position: relative;
+      left: 80px;
+      padding: 10px 25px 55px 45px;
+      margin: 20px;
+      background-color: #ffffff;
+      border-radius: 25px;
+    }
+    .why{
+      background-color: #D9526F;
+      padding: 4.25rem;
+      position: relative;
+      width: 480px;
+      height: 300px;
+    }
+    .why h2{
+      position: relative;
+      left:-60px;
+      bottom: 60px;
+      width: max-content;
+      color: #ffffff;
+      font-size: 50px;
+    }
+    #personal{
+      background-color: #4CA7C0;
+      padding: 100px;
+      width: 250px;
+      color: #1E1E1E;
+      border-radius: 35px;
+      max-width: max-content;
+      text-align: center;
+      scale: 60%;
+      position: relative;
+      bottom: 425px;
+      left: -80px;
+    }
+    .list{
+      font-family: 'Inter';
+      font-weight: bold;
+      color: #1E1E1E;
+      font-size: xx-large;
+    }
+    #results{
+      background-color: #6B8FE7;
+      padding: 100px;
+      width: 250px;
+      color: #1E1E1E;
+      border-radius: 35px;
+      max-width: max-content;
+      text-align: center;
+      scale: 70%;
+      position: relative;
+      bottom: 670px;
+      left: 245px;
+    }
+    #environment{
+      background-color: #E9BB57;
+      padding: 100px;
+      width: 210px;
+      color: #1E1E1E;
+      border-radius: 35px;
+      max-width: max-content;
+      text-align: center;
+      scale: 65%;
+      position: relative;
+      bottom: 735px;
+      right: 60px;
+    }
+    #options{
+      background-color: #ffffff;
+      padding: 110px;
+      width: 250px;
+      color: #1E1E1E;
+      border-radius: 35px;
+      max-width: max-content;
+      text-align: center;
+      scale: 65%;
+      position: relative;
+      bottom: 995px;
+      left: 225px;
+    }
+    /*Tables*/
+    .pricing h2{
+      color: #ffffff;
+    }
+    .pricing table{
+      font-family: 'Inter';
+      font-weight: bold;
+      background-color:#E9BB57;
+      table-layout: fixed;
+      width: max-content;
+      margin: 100px 200px;
+      justify-items: center;
+      scale: 200%;
+      
+    }
+    .pricing td{
+      font-weight: normal;
+      text-align: center;
+      border: 2px solid #E9BB57 ;
+      background-color: #ffffff;
+      padding: .5rem;
+    }
+    .group-coaching table{
+      font-family: 'Inter';
+      font-weight: bold;
+      background-color:#E9BB57;
+      table-layout: fixed;
+      width: max-content;
+      margin: 80px 200px;
+      justify-items: center;
+      scale: 200%;
+    }
+    .group-coaching td{
+      font-weight: normal;
+      text-align: fixed;
+      border: 2px solid #E9BB57 ;
+      background-color: #ffffff;
+      padding: 1rem;
+    }
+    
+    .seminars table{
+      font-family: 'Inter';
+      font-weight: bold;
+      background-color:#E9BB57;
+      table-layout: fixed;
+      width: max-content;
+      margin: 80px 200px;
+      justify-items: center;
+      scale: 200%;
+    }
+    .seminars td{
+      font-weight: normal;
+      text-align: fixed;
+      border: 2px solid #E9BB57 ;
+      background-color: #ffffff;
+      padding: 1rem;
+    }
+    .courses td{
+      font-weight: normal;
+      text-align: center;
+      border: 2px solid #E9BB57 ;
+      background-color: #ffffff;
+      padding: .85rem;
+    }
+    .courses table{
+      font-family: 'Inter';
+      font-weight: bold;
+      background-color:#E9BB57;
+      table-layout: fixed;
+      width: max-content;
+      margin: 58px 190px;
+      justify-items: center;
+      scale: 200%;
+    }
+    /*footer*/
+    .first-step{
+    background-color: #D9526F;
+      padding: 4.25rem;
+      position: relative;
+      width: 480px;
+      height: 300px;
+    }
+    .first-step h2{
+      position: relative;
+      top: -40px;
+      color: #ffffff;
+    }
+    .first-step p{
+      position: relative;
+      top: -10px;
+      color: #ffffff;
+      font-size: 30px;
+    }
+    .Schedule{
+      position: relative;
+      top: 10px;
+      width: 500px;
+      margin: auto;      
+      border: none;
+      padding: 2rem;
+      font-size: 2rem;
+      font-weight: bolder;
+      text-align: center;
+      background-color: #ffffff;
+      color:#1E1E1E;
+      border-radius: 30px;
+      text-shadow: #1E1E1E;
+      box-shadow: inset 0px -3px 0px; color: #1E1E1E;
+    }
+    .Schedule:hover{
+      background-color: #1E1E1E;
+      color: #ffffff;
+    }
+    footer{
+      font-family: 'Inter';
+      background-color: #6B8FE7;
+      margin: auto;
+      text-align: center;
+      color: #ffffff;
+      padding: 50px;
+      width: 516px;
+      border-radius: 0px 0px 60px 60px;
+      position: relative;
+      z-index: 1;
+    }
+    footer p{
+      color: #ffffff;
+      font-family: "Inter";
+      position: absolute;
+      text-align: left;
+      left: 115px;
+    }
+    footer  a{
+      color: #ffffff;
+      font-family: "Inter";
+      position: absolute;
+      text-align: right;
+      right: 115px;
+    }
